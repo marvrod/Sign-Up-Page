@@ -121,20 +121,45 @@ body {
     color: #E2E2E2;
     font-weight: 700;
     font-size: large;
+
   }
 
   label {
     font-size: small;
+    color: #E2E2E2;
+    font-family: "NordBold";
   }
 
   .form-group {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 7px;
   }
 
   form {
     display: flex;
     gap: 10px;
+    min-width: 416 px;
+    flex-wrap: wrap;
+    margin-left: -7px;
+  }
+
+  form :first-child {
+    margin-left: 0px;
+  }
+
+  input {
+    background-color: #95b9cf;
+    border: 0px;
+    margin-top: 2px;
+    border-radius: 2px;
+  }
+
+  input:focus {
+    background-color: #81a1b4;
+    border: 0px;
+    outline-style: inset;
+    outline-color: darkblue;
+    box-shadow: 0 0 0 2px black;
   }
 
